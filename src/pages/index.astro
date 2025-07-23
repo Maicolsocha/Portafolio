@@ -1,14 +1,32 @@
 ---
-
-import Badge from '../components/Badge.astro';
-import Layout from '../layouts/Layout.astro';
- 
-
+import Badge from "../components/Badge.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<main>
-        <h1>Hola, Maicol Socha <Badge>Disponible Para Trabajar</Badge></h1>
-        <h2>2 años de experincia. Desarrollador web</h2>
+    <main>
+        <section class="w-full lg:w-[740px] mx-auto py-44">
+            <h1
+                class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-6"
+            >
+                Hola, Soy Maicol Socha 
+            <a
+                href="https://www.linkedin.com/in/maicol-socha"
+                target="_blank"
+                rel="noopener"
+                class="flex items-center"
+                ><Badge>Disponible Para Trabajar</Badge></a
+            >
+            </h1>
+            <h2 class="text-2xl opacity-90">
+                2 años de experiencia. <span class="text-blue-300/90">Desarrollador web de bogota colombia</span>
+            </h2>
+
+            <ol>
+                <li>
+                    <a href="https://www.linkedin.com/in/maicol-socha">LinkedIn</a>
+                </li>
+            </ol>
+        </section>
     </main>
 </Layout>

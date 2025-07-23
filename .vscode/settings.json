@@ -1,0 +1,17 @@
+{
+  "tailwindCSS.experimental.configFile": "tailwind.config.js",
+  "tailwindCSS.includeLanguages": {
+    "astro": "html"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "class:list"
+  ],
+  "files.associations": {
+    "*.astro": "astro"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
