@@ -3,10 +3,11 @@ import Badge from "../components/Badge.astro";
 import SocialPill from "../components/SocialPill.astro";
 import GithubIcon from "../icons/GithubIcon.astro";
 import LinkedInICon from "../icons/LinkedInIcon.astro";
+import MailIcon from "../icons/MailIcon.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout>
+<Layout title="Portafolio de Maicol Socha - Desarrollador Y programador Web con 2 años de experiencia" description="Contrata a Maicol Socha, un desarrollador web con 2 años de experiencia. Especializado en JavaScript, HTML, CSS y frameworks modernos.">
     <main>
         <section class="w-full lg:w-[740px] mx-auto py-44">
             <h1
@@ -29,10 +30,13 @@ import Layout from "../layouts/Layout.astro";
 
             <nav class="flex gap-x-2 mt-7">
                 <SocialPill href="https://www.LinkedInICon.com/in/maicol-socha">
-                    <LinkedInICon class="w-6 h-6" />LinkedIn
+                    <LinkedInICon class="size-6" />LinkedIn
                 </SocialPill>
                 <SocialPill href="https://github.com/Maicolsocha">
-                    <GithubIcon class="w-6 h-6" />Github
+                    <GithubIcon class="size-6" />Github
+                </SocialPill>
+                <SocialPill href="https://github.com/Maicolsocha">
+                    <MailIcon class="size-6" />maisochajimenez@gmail.com
                 </SocialPill>
             </nav>
         </section>
