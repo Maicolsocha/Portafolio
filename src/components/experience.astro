@@ -1,12 +1,14 @@
 ---
-import ExperienceItem from "./experienceItem.astro"
+import ExperienceItem from "./experienceItem.astro";
+
+
 
 const EXPERIENCE = [
     {
-        date: "2022-02-01",
-        title: "Application UI code in Tailwind CSS",
-        description: "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.",
-        link: "#"
+        date: "Octubre 2023 - Actualmente",
+        title: "Desarrollador Web Division Digital",
+        description: "Acompaño a los clientes en todo el proceso de creación y gestión de sus e-commerce: entiendo sus necesidades, diseño y optimizo sus tiendas, doy soporte técnico, propongo mejoras de experiencia de usuario y coordino con desarrolladores para garantizar que todo funcione como debe. Enlace a una delas tiendas que administro.",
+        link: "https://electrificadoracapital.com/"
     },
     {
         date: "2022-03-01",
@@ -14,17 +16,12 @@ const EXPERIENCE = [
         description: "All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.",
         link: "#"
     },
-    {
-        date: "2022-04-01",
-        title: "E-Commerce UI code in Tailwind CSS",
-        description: "Get started with dozens of web components and interactive elements built on top of Tailwind CSS.",
-        link: "#"
-    }
+    
 ]
 ---
 
 
-<ol class="relative border-s border-gray-200 dark:border-gray-700">
+<ol class="relative border-s border-gray-200 dark:border-sky-700/50 ml-4">
     {
         EXPERIENCE.map(experience =>(
             <li class="mb-10 ms-4">
